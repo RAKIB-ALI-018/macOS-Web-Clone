@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/project1/600/400",
+    "title": "TaskFlow — Kanban Board App",
+    "description": "A drag-and-drop task management board built with React and Context API. Supports multiple boards, due dates, and local persistence.",
+    "tags": ["React", "Tailwind CSS", "Context API", "LocalStorage"],
+    "repoLink": "https://github.com/facebook/react",
+    "demoLink": "https://react.dev"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/project2/600/400",
+    "title": "WeatherNow",
+    "description": "A responsive weather dashboard that fetches live forecasts using a public weather API, with search history and unit toggling.",
+    "tags": ["JavaScript", "REST API", "CSS Grid"],
+    "repoLink": "https://github.com/axios/axios",
+    "demoLink": "https://axios-http.com"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/project3/600/400",
+    "title": "DevNotes",
+    "description": "A markdown-based note-taking app for developers with syntax-highlighted code blocks and tag-based organization.",
+    "tags": ["React", "Markdown", "Node.js", "MongoDB"],
+    "repoLink": "https://github.com/nodejs/node",
+    "demoLink": "https://nodejs.org"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/project4/600/400",
+    "title": "PixelDash — Analytics Dashboard",
+    "description": "An interactive analytics dashboard with charts, filters, and CSV export, built using Recharts and a mock data layer.",
+    "tags": ["React", "Recharts", "Vite", "Tailwind CSS"],
+    "repoLink": "https://github.com/recharts/recharts",
+    "demoLink": "https://recharts.org"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/project5/600/400",
+    "title": "ChatSphere",
+    "description": "A real-time chat application with rooms, typing indicators, and message history, powered by WebSockets.",
+    "tags": ["Socket.io", "Express", "React", "MongoDB"],
+    "repoLink": "https://github.com/socketio/socket.io",
+    "demoLink": "https://socket.io"
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/seed/project6/600/400",
+    "title": "FocusPilot",
+    "description": "A productivity dashboard combining a Pomodoro timer, goal tracker, and theme switcher with persistent local storage.",
+    "tags": ["JavaScript", "CSS", "LocalStorage", "BEM"],
+    "repoLink": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "demoLink": "https://www.freecodecamp.org"
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/seed/project7/600/400",
+    "title": "ShopLite — Mini E-commerce",
+    "description": "A lightweight storefront with cart management, product filtering, and checkout simulation using mock APIs.",
+    "tags": ["React", "Redux Toolkit", "Tailwind CSS"],
+    "repoLink": "https://github.com/reduxjs/redux",
+    "demoLink": "https://redux.js.org"
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/seed/project8/600/400",
+    "title": "QuickQuiz",
+    "description": "A timed quiz application with score tracking, multiple categories, and animated transitions between questions.",
+    "tags": ["JavaScript", "CSS Animations", "Fetch API"],
+    "repoLink": "https://github.com/vuejs/vue",
+    "demoLink": "https://vuejs.org"
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/seed/project9/600/400",
+    "title": "CodeSnap",
+    "description": "A code snippet organizer with syntax highlighting, search, and shareable links, built as a full-stack MERN app.",
+    "tags": ["MongoDB", "Express", "React", "Node.js"],
+    "repoLink": "https://github.com/expressjs/express",
+    "demoLink": "https://expressjs.com"
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/seed/project10/600/400",
+    "title": "TrailMap",
+    "description": "An interactive hiking-trail explorer with map markers, elevation charts, and saved favorite routes.",
+    "tags": ["Leaflet.js", "React", "D3.js"],
+    "repoLink": "https://github.com/d3/d3",
+    "demoLink": "https://d3js.org"
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/seed/project11/600/400",
+    "title": "BudgetBuddy",
+    "description": "A personal finance tracker with expense categorization, monthly summaries, and interactive spending charts.",
+    "tags": ["React", "Chart.js", "LocalStorage"],
+    "repoLink": "https://github.com/chartjs/Chart.js",
+    "demoLink": "https://www.chartjs.org"
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/seed/project12/600/400",
+    "title": "SnapGallery",
+    "description": "A masonry-style photo gallery with lazy loading, lightbox preview, and category filters using a public image API.",
+    "tags": ["JavaScript", "CSS Grid", "Intersection Observer"],
+    "repoLink": "https://github.com/lodash/lodash",
+    "demoLink": "https://lodash.com"
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/seed/project13/600/400",
+    "title": "RecipeRadar",
+    "description": "A recipe discovery app with ingredient-based search, saved favorites, and step-by-step cooking mode.",
+    "tags": ["React", "Router", "REST API"],
+    "repoLink": "https://github.com/remix-run/react-router",
+    "demoLink": "https://reactrouter.com"
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/seed/project14/600/400",
+    "title": "PixelPaint",
+    "description": "A browser-based pixel art editor with a customizable color palette, undo/redo history, and PNG export.",
+    "tags": ["JavaScript", "Canvas API", "CSS"],
+    "repoLink": "https://github.com/mrdoob/three.js",
+    "demoLink": "https://threejs.org"
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/seed/project15/600/400",
+    "title": "LinguaLeap",
+    "description": "A flashcard-based language learning app with spaced repetition scheduling and progress streak tracking.",
+    "tags": ["React", "Context API", "IndexedDB"],
+    "repoLink": "https://github.com/facebook/jest",
+    "demoLink": "https://jestjs.io"
+  }
+]
