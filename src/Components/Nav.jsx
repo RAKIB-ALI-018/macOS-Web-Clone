@@ -2,12 +2,14 @@ import React from 'react';
 import './nav.scss'
 import DateTime from './DateTime';
 
+const base = import.meta.env.BASE_URL;
+
 const Nav = () => {
     return (
         <nav>
             <div className="left">
                 <div className="apple-logo left-item">
-                    <img src="/nav-icons/apple.svg" alt="" />
+                    <img src={`${base}nav-icons/apple.svg`} alt="" />
                 </div>
                 <div className="left-item chrome">
                     <p>Chrome</p>
@@ -42,13 +44,13 @@ const Nav = () => {
             </div>
             <div className="right">
                 <div className="wifi-icon right-item">
-                    <img src="/nav-icons/wifi.svg" alt="" />
+                    <img src={`${base}nav-icons/wifi.svg`} alt="" />
                 </div>
-                
+
                 <div className="right-item">
                     <DateTime/>
                 </div>
-                
+
             </div>
         </nav>
     );
