@@ -1,0 +1,81 @@
+
+/**
+ * @file: profile.config.ts
+ * @author: Rakib Ali 
+ * @summary: Full-stack developer, currently sharpening DSA + building MERN projects.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML",        // 90%
+    "CSS",         // 90%
+    "JavaScript",  // 85%
+    "React.js",    // 80%
+  ],
+  backend: [
+    "Node.js",     // 75%
+    "Express.js",  // 75%
+    "MongoDB",     // 70%
+  ],
+  computerScience: [
+    "Data Structures & Algorithms", // C++, active LeetCode practice
+   
+    "Artificial Intelligence",
+  ],
+  tools: ["Git", "GitHub", "VS Code"]
+};
+
+// --------------------------------------------------
+// 2. LEARNING LOG (Reverse Chronological)
+// --------------------------------------------------
+
+class LearningJourney {
+
+  /**
+   * CURRENT FOCUS
+   * @period Ongoing
+   */
+  public async DSA_Grind(): Promise<Progress> {
+    const language = "C++";
+    const focusAreas = [
+      "Binary Search",
+      "Bit Manipulation",
+      "Stacks & Strings",
+      "Trees & BSTs",
+    ];
+    const platform = "LeetCode";
+
+    return { language, focusAreas, platform };
+  }
+
+  /**
+   * PROJECT BUILDING
+   * @period Ongoing
+   */
+  public FullStack_Projects(): void {
+    this.stack = "React + Tailwind CSS + Node.js + Express + MongoDB";
+    this.recentWork = [
+      "FocusPilot — productivity dashboard (Pomodoro, goals, theming)",
+      "React Router + Context API mini-projects",
+      "API-driven apps (Axios, Picsum API)",
+    ];
+  }
+}
+
+// --------------------------------------------------
+// 3. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  ["Netaji Subhas University of Technology(NSUT)", "B.Tech Computer Science — CGPA: 7+"],
+]);
+
+// --------------------------------------------------
+// 4. STATUS
+// --------------------------------------------------
+
+export default new LearningJourney();
